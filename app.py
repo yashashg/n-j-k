@@ -34,7 +34,7 @@ class Users(Resource):
         return {'userId': bot_responses}, 200  # return data with 200 OK
         
         
-api.add_resource(Users, '/users')  # '/users' is our entry point
+api.add_resource(Users, '/')  # '/users' is our entry point
     
 if __name__ == '__main__':
     app.run()  # run our Flask app
