@@ -25,7 +25,7 @@ class BotModel(object):
         self.bot_clf_path = './models/bot_clf.joblib'
         self.lbencoder_path = './models/lbencoder.joblib'
         self.tfidf_path = './models/tfidf.joblib'
-        self.glove_path = './models/glove.6B.%dd.txt' % self.embeddings_size
+        self.glove_path = 'https://thriftyai.com/digitalCXO/glove.6B.%dd.txt'  % self.embeddings_size
 
         self.embeddings_index = None
         self.tfidf = None
